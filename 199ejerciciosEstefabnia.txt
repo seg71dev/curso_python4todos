@@ -1,0 +1,114 @@
+Python Exercises for Beginners: Solve 100+ Coding Challenges
+
+Sección 1: Welcome to the Course
+- 1. Welcome: Course Structure and PDF Resources
+- 2. Welcome to the Course - Important Course Information
+- 3. Collect Your Badge, Introduce Yourself, and Share your Goals
+
+Sección 2: Strings (Level 1)
+- 5. Print the Length of a String
+- 7. Print the Character at a Specific Index
+- 9. Reverse a String
+- 11. First and Last Three Characters of a String
+- 14. Remove Characters at Even Indices
+- 16. Check if a String Only Contains Numbers
+- 18. Remove nth Character from a String
+- 20. Replace a Character in a String
+
+Sección 3: Strings (Level 2)
+- 23. Change Commas by Dots
+- 25. Check if String Contains All Letters in the Alphabet
+- 27. Remove Spaces from a String
+- 29. Check if a String Starts with a Prefix
+- 31. Check if a String Ends with a Suffix
+- 34. Reverse Words in a String
+- 36. Count Repeated Characters
+- 38. Sort Words in Alphabetical Order
+
+Sección 4: Lists, Tuples, Sets (Level 1)
+- 42. Multiply all Elements in a List
+- 44. Print Elements on the Same Line Without Commas
+- 46. Get Max and Min Values
+- 48. Check if List is Empty or Not
+- 51. Print the Elements and Their Indices
+- 53. Remove Matching Element
+- 55. Remove Duplicates from a List
+- 57. Count Elements Greater than 3
+- 59. Find the Intersection of Two Sets
+
+Sección 5: Lists, Tuples, Sets (Level 2)
+- 62. Difference Between Two Lists
+- 64. Distance Between Two 3D Points
+- 66. Print Common Elements in Two Lists
+- 68. Find the Second Largest Value in a List
+- 71. Find the Second Smallest Value in a List
+- 73. Make a Frequency Dictionary from a List
+- 75. Flatten a List that Contains Lists
+- 77. Generate all Permutations of a List
+- 79. Use Tuples
+
+Sección 6: Dictionaries (Level 1)
+- 82. Check if a Key Exists in a Dictionary
+- 84. Add a Key-Value Pair Only if the Key is Not in the Dictionary
+- 86. Merge Two Dictionaries
+- 89. Check if All Values are Equal
+- 91. Find the Maximum Value in a Dictionary
+- 93. Find the Minimum Value in a Dictionary
+
+Sección 7: Dictionaries (Level 2)
+- 96. Find Frequency of Values in a Dictionary
+- 98. Make a Dictionary from Nested Lists
+- 100. Print the Max Sum of Values
+- 103. Make a Frequency Dictionary for the Characters in a String
+- 105. Sort Lists in Ascending Order
+- 107. Convert Dictionary into a List of Lists
+
+Sección 8: Conditionals (Level 1)
+- 111. Zero, Positive, or Negative
+- 113. Check Vowels and Consonants
+- 115. Print Max of Three Numbers
+- 118. Print Min of Three Numbers
+- 120. Four Seasons
+- 122. Compare Three Numbers
+
+Sección 9: Conditionals (Level 2)
+- 125. Find Number of Days in a Month
+- 127. Increasing or Decreasing Order
+- 129. Solve Quadratic Equations
+- 132. Check if a Year is a Leap Year or Not
+- 134. Interactive Calculator
+- 136. Rock, Paper, Scissors
+
+Sección 10: Loops (Level 1)
+- 140. Print the First 15 Positive Integers
+- 142. Print Integers in Reverse Order (from n to 1)
+- 144. Sum of First 100 Positive Integers
+- 146. Print the Multiplication Table
+- 149. Print the Alphabet using a Loop
+- 151. First 100 Even Numbers
+- 153. Calculate Factorial
+- 155. Use While Loops
+
+Sección 11: Loops (Level 2)
+(Ejercicios 65–72, aún no listados en detalle)
+
+Sección 12: Recursion (Level 1)
+(Ejercicios 73–77, aún no listados en detalle)
+
+Sección 13: Recursion (Level 2)
+(Ejercicios 78–83, aún no listados en detalle)
+
+Sección 14: Files (Level 1)
+(Ejercicios 84–88, aún no listados en detalle)
+
+Sección 15: Files (Level 2)
+(Ejercicios 89–92, aún no listados en detalle)
+
+Sección 16: Miscellaneous (Level 1)
+(Ejercicios 93–98, aún no listados en detalle)
+
+Sección 17: Miscellaneous (Level 2)
+(Ejercicios 99–103, aún no listados en detalle)
+
+Sección 18: Congratulations
+- 252. Final Message and Certificate
