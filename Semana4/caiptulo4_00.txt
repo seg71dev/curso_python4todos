@@ -1,0 +1,113 @@
+Hola y bienvenido al Capítulo 4. Ahora, volveremos y repasaremos lo dicho en el primer capítulo
+del cuarto patrón para el código. Secuencial, condicional, iteración,
+almacenar y reutilizar. Este es el patrón de Almacenar y reutilizar.
+La esencia del patrón de Almacenar y reutilizar es que, como programadores,
+no nos gusta repetirnos. Entonces, si tiene cuatro líneas de código y
+más adelante desea hacer lo mismo, lo pone aquí. Luego, lo pone más adelante. ¿Y si
+encuentra algo malo con esas cuatro líneas de código? Entonces debe
+buscar todos los lugares, digamos que lo pone en
+100 lugares en su programa. Tiene que buscar los 100 lugares
+y arreglar el error. Bueno, ¿por qué no ponemos ese
+lugar y le damos un nombre y lo usamos en todos los otros lugares? Y de eso se trata Almacenar
+y reemplazar. Es la idea de no repetirse,
+no repetirse uno mismo. Eso es lo que tenemos aquí,
+los pasos Almacenar y reutilizar. Y las funciones son esas cosas que
+almacenamos y reutilizamos. Echemos un vistazo. La nueva palabra clave aquí es def,
+d-e-f, que significa iniciar la definición de una función,
+definir la función. def termina en dos puntos, como muchas cosas que
+inician un bloque con sangría. Eso inicia un bloque con sangría. Tiene el nombre de lo que se almacena,
+lo llamo thing por ahora. Hay algunos parámetros opcionales,
+que veremos más adelante, entre paréntesis. Ahora no tenemos parámetros
+en esta función. Hay un bloque con sangría y cuando esta
+se elimina, se define la función. Muy bien, thing aquí
+no tiene sangría, pero esta t tampoco tiene sangría y eso
+es la definición del final de la función. Ahora, es clave entender
+que Python lo analiza o lo mira,
+pero no lo ejecuta. Hay dos instrucciones ejecutables allí,
+print y print. Pero lo que hace es solo recordarlas. Así que solo las almacena en un área
+pequeña casi como una variable, como una variable x = 2. Hay algunas x ahí afuera y
+se le asigna un 2. Bueno, hay una cosa "thing" por ahí,
+t-h-i-n-g. E incluye dos líneas de código. Es como una variable,
+salvo que tiene el código. Entonces una función es como una
+variable, salvo que incluye el código. Y lo más importante,
+no ejecuta estas líneas de código. No hay salida, no hay resultado aquí. No sale nada de esa primera parte. Tiene el efecto secundario de ampliar
+Python, hay una cosa nueva, "thing", que podemos llamar. A esta llamada le decimos "invocar". Hemos creado una de estas cosas,
+ahora llamemos a la cosa. Decimos thing(). Esa es la sintaxis para
+llamar a la función. Hemos estado usando funciones,
+print es una función, ¿sí? print() parámetro,
+así funciona print. Bien, thing es una función, thing(), pero sucede que
+no hay parámetros aquí porque es una función muy simple. Lo que sucede es que
+def no hace nada, salvo recordar a thing. Entonces dice: volvamos
+y ejecutemos thing, esas dos líneas. Así que ven, Hello y Fun. Y luego vuelve aquí, ejecuta
+esta instrucción print y sale Zip. Y añade: vuelva a ejecutar ese código. Es la parte de no repetirse a uno mismo.
+Ejecutar esto, print, print, hacerlo de nuevo y el programa finaliza. Así que vuelve aquí. Una de las cosas sobre las funciones es
+que Python, cuando llama una función, recuerda
+a dónde volver. Es decir, volver aquí arriba. Ya terminé, ¿a dónde vuelvo? Oh, recordé volver aquí,
+así que hago esto. Bien, a este lugar debo regresar,
+ejecutar de nuevo, ejecutar y regresar a ese lugar. Es como si pausara este código, aquí,
+ejecuta esto y luego lo reanuda. Es como saltar y regresar. En todo esto hemos usado funciones,
+como print, input, type, float, int, int y float hacen conversiones, type nos dice qué tipo de elemento
+es tal cosa, print imprime el elemento e input lee cosas del usuario. Luego hablaremos sobre las funciones
+que vamos a hacer y usar. Al ampliar Python al crear funciones, podemos pensar en ellas como
+nuevas reservas o nombres de funciones. Las convenciones de nomenclatura para
+funciones es igual que para variables. Es deseable evitar cosas como
+palabras reservadas, por ejemplo. Una función es un trozo de código reutilizable. Una función se define usando
+la palabra clave def. Y la llamamos. En general decimos llamar,
+pero creo que invocar es más claro. Como invocar esta función, hacerlo bien, con un nombre de función,
+paréntesis y luego argumentos opcionales. Esta es una función que no hemos
+usado aún: la función max. Es otra de las funciones
+integradas de Python. Este es un ejemplo de un argumento. Pasamos por una cadena y pedimos a
+max buscar lo más grande de algo. En este caso, analizará esta cadena
+y buscará la letra más grande. Y decide que "w"
+es la más grande. Parece que las minúsculas
+son más grandes que las mayúsculas. Y luego hace lo que se llama
+un retorno y nos devuelve el resultado de la instrucción,
+que en este caso es una "w". Aquí va.
+Entonces esa "w" se asigna a "big". Si ejecutamos min,
+que es una función diferente, la pasamos por "Hello world",
+y busca lo más pequeño. Y por alguna razón,
+el espacio es lo más pequeño. Este espacio es lo que
+se envía a tiny, y hay un espacio justo allí y
+nos vamos. Así que, en cierta forma,
+piense en la función max como un trozo de código
+ya incrustado en Python. Pasamos un argumento,
+que es una cadena. Aquí hay un código que se ejecuta,
+lee el argumento, entra, analiza y observa los elementos, los lee y, luego,
+nos devuelve la respuesta, que es "w",
+denominada devolución. Nos devuelve algo. Y esa "w", piense que funciona en este
+lado de la instrucción de la asignación. La "w" es el valor residual,
+luego de ejecutada la función max. Y luego se asigna a "big",
+y "big" tiene la letra w. Las cosas que hemos estado analizando
+hasta ahora son conversiones de tipo. Y aquí va Python,
+está viendo qué imprimir. Es como decir: tengo una expresión aquí,
+pero espere, quiero hacer esto, pero tengo que llamar a una función. Hay un poco de float aquí,
+un código para float. Pasamos un 99 y obtenemos 99.0 y ese 99.0 dividido
+100 nos da 0.99. Así que pone en pausa su cálculo,
+prosigue y ejecuta este código float y luego regresa. Ahora haremos una variable i,
+42, ¿qué cosa es? Es un número entero. Ahora, lo que haremos es
+pasar este número entero a ese mismo código float, 42 al mismo código float,
+y se obtendrá 42.0 y eso reemplazará a esto en la función y
+eso se asignará a f. Así que, sorpresa, tenemos 42 en f,
+y preguntamos, ¿qué cosa es? Y luego,
+hará este cálculo. Recuerden que primero
+se hará la multiplicación, segundo la división,
+así que 2 veces float. Espere un segundo. Pare un momento. Ahora hay que ejecutar float,
+o sea que tomamos este 3, lo pasamos al código float. Float nos devuelve, en este caso, 3.0, que reemplaza
+esto en la función como 3.0. Y luego terminamos con este
+cálculo de 2 x 3.0 o 6.0 y luego continuamos
+hasta finalizar. Piense en estas llamadas de función
+como suspender lo que se hace, solo por un instante,
+suspenderemos eso, esperaremos y luego la función nos devolverá
+algo para reemplazarlo, ¿de acuerdo? También las conversiones de cadenas. Hemos usado int y float
+para cosas como leer elementos porque input es una función, pero
+siempre nos devuelve una cadena. Y nos devuelve una cadena. Podríamos usarla
+como un número. La cadena 1-2-3 no es igual a 123. Esa es una cadena.
+Y si hacemos algo inusual, como agregarle 1, boom, tenemos un traceback porque
+no podemos unir una cadena y un entero porque son del tipo incorrecto. Pero si tomamos este 123, y aquí hay
+un breve código llamado función int, pasamos sval,
+que es la cadena 1-2-3 y tenemos el número entero 123,
+que reemplaza a esto en la función y el entero 123 se asigna a ival. Y decimos, ¿qué tipo de cosa es ival? Es un número entero. Podemos agregar 1 y tener 124. Y tal como vimos en un capítulo anterior, si llamáramos a int y
+pasáramos Hello Bob, (debería haber usado un color diferente) pasamos Hello Bob, este código explota. [SONIDO] Y dice: oh, traceback,
+y explota. Así que incluso una función puede explotar. ¿Y sabe qué? Nuestro código explota. La función explota y nosotros terminamos. A continuación dejaremos de
+usar funciones integradas y pasaremos a definir
+y usar funciones propias.

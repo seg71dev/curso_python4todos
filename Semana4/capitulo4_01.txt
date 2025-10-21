@@ -1,0 +1,135 @@
+Ahora crearemos nuestras
+propias funciones. Ya vimos un poco
+de la sintaxis al principio. Ahora exploraremos
+usando la palabra clave def y algunas de las decisiones que tomamos. La esencia de esto,
+lo diré probablemente 20 veces. La instrucción def solo
+define la función. Tiene un efecto secundario, pero
+en realidad no ejecuta el código. Solo recuerda el código y luego
+llamaremos e invocaremos la función. Este es un ejemplo de algunos códigos
+con problemas que no funcionarán bien. Estamos aquí, fijamos x = 5. Y no tiene que tener def
+al comienzo del programa. Ponemos una instrucción print,
+ahí va "Hello". Luego ponemos una instrucción def
+que viaja hasta aquí. El resultado es que ha extendido
+Python para que incluya la función print_lyrics,
+con dos trozos de código aquí. Esta impresión borra la sangría,
+y bloquea esto. Ese trozo dentro
+del bloque es la función. Ese elemento se copió allí, y
+ahora continúa e imprime "Yo". Agrega 2 a x, imprime x, devuelve
+un 7 y el programa ya finalizó. ¿Qué pasó con estas líneas de código? La respuesta es que nunca se ejecutaron,
+nunca se ejecutaron. Debido a que la instrucción def
+no ejecuta el código automáticamente. Debe invocarla. Y no invocamos la función. No sé si esa es una cara feliz o
+triste, es una cara burlona, o que se pregunta qué está sucediendo. Así que no la invocamos, ¿no? No la invocamos y, por lo tanto, no
+trabajó y no devolvió resultados. ¿Por qué lo hicimos? No sé por qué lo hicimos. Signos de interrogación. Quién sabe por qué lo hicimos. Pero lo que realmente queríamos hacer
+es algo más parecido al siguiente trozo. Una vez definida, debemos llamarla,
+y eso es reutilizar. Lo de almacenar ya funcionaba,
+pero no lo de reutilizar. Aquí vamos. Esto es un bit
+de código más funcional: x = 5, print('Hello'),
+devuelve eso. Defínalo. Esto no crea una salida,
+pero el no tener sangría convierte este bloque en parte de eso y eso se almacenó. Almacenar. Ahora imprimimos Yo y por eso viene Yo. Y llamamos a print_lyrics. De nuevo, print es una función,
+tiene paréntesis con parámetros. Esto tiene paréntesis sin parámetros. No pusimos ningún parámetro,
+veremos eso en un segundo. Print_lyrics dice: ejecute este código. Aparecen estas dos instrucciones de impresión, agregamos 2 a x,
+se imprime y devuelve 7. Esto es almacenar, esto es reutilizar,
+esto es llamar, invocar. ¿Sí? Bien. Todo lo que mostramos hasta
+ahora no tiene argumentos, excepto este max, que sí tenía. Ese max es entrada y obtendremos algo de vuelta, la "w",
+y la "w" quedará trabada en "big". Los argumentos son entradas.
+Si queremos definir argumentos en las funciones propias que estamos creando,
+los colocamos entre paréntesis. Es como una variable,
+elegimos un nombre de variable. Pero esta variable no existe, digamos. Esta variable lang puede
+pensarse como un alias. Un alias para el parámetro que
+ocurra primero cuando esa función en particular es invocada. Así que vamos a invocar
+esta función tres veces. Colocaremos entre paréntesis
+tres cosas diferentes. Es una manera de tener un código casi
+idéntico, solo un poco diferente. Al introducir distintos parámetros,
+el código hace algo diferente. Esto es solo un marcador de posición
+para decir cuál era el primer parámetro. Si ese primer parámetro es "es",
+imprimir esto. Si el primer parámetro es "fr", imprimir eso. Si no, imprimir eso. Entonces, a medida que el programa se ejecuta, esto no logra
+nada, no ejecuta ningún código, pero crea este elemento
+llamado greet. Y le indicamos a Python que
+esperamos un parámetro. Esperamos que cuando se invoque o
+llame, queremos un parámetro. Luego llamamos a greet y de nuevo
+Python recuerda volver aquí. Luego se dispara hasta aquí e
+inicia esta línea de código. "en", "lang" es un alias para "en". Es como que "lang" no es "es", "lang" no es "fr", y este código se ejecuta,
+devuelve Hello y listo. Y dice volver al lugar donde recordó
+que se suponía que debía recoger el siguiente, este. ¿Bien? Dice recoger el siguiente. Luego pasa a la siguiente
+instrucción: greet. Así que volverá a ejecutar esta función. Recuerda a dónde volver,
+que es justo aquí. Salta hasta aquí y
+hace que esta vez "lang" signifique "es". Ahora, "lang" es "es" y esto es verdadero. Ejecutamos ese código, salimos, imprimimos "Hola" y, luego,
+volvemos donde recordamos antes. Y luego avanzamos
+hasta este código, ¿sí? Ahora estamos en este código, volvemos a ejecutar greet,
+así que saltamos hasta aquí. Y esta vez "fr" es "lang", y así se ejecuta aquí, eso es falso y esto, verdadero
+así que imprime "Bonjour". Luego vuelve y recuerda. Olvidé recordar a dónde volver,
+y continúa, ¿cierto? Ahí se ve todo el patrón,
+muchos colores bonitos, pero se entendió la idea. que se ejecuta un par de veces y
+lang es el alias para el primer parámetro
+que aparezca. Esa es la mejor manera de pensarlo. Cualquiera sea el primer parámetro, usaré "lang" aquí, usaré
+"lang" para el primer parámetro. Podría nombrar esto (pero no lo haga)
+como p1, p1, p1. Parámetro 1, no, a Python no le importaría
+pero es solo el primer parámetro. "Lang" en sí no es una variable ya que no hay memoria
+a la que "lang" pertenezca. Se asemeja a
+un alias de otra cosa. ¿Sí? Bien. Cuando vemos las instrucciones
+float o input, vemos cosas como input, paréntesis, etc., paréntesis igual a x, ¿verdad? Así que vamos a asignar algo. La pregunta es: ¿qué es este
+valor residual que regresa? Y dentro de la función,
+como escritores de la función, determinamos qué es el valor
+residual por la instrucción de devolución. Básicamente, aunque esto es realmente
+una función trivial, no tiene parámetros, la instrucción return hace dos cosas. Uno, detiene la función, y
+salta a la siguiente línea, ¿sí? Pero dos, también determina
+el valor residual. Al decir return,
+si venimos aquí, hacemos esto y luego estamos en
+medio de esta instrucción print. Así que se pausa aquí,
+ejecuta este código y return dice: oh, esto que era la función,
+envíelo de vuelta allí. Eso en verdad significa print
+Hello Glenn, e imprime Hello Glenn. Luego pasa a la siguiente línea
+y vuelve a ejecutar greet. Vuelve a ejecutar greet, viene aquí y
+Hello se vuelve este valor residual. No es muy inteligente, pero
+la idea es clara. Este valor residual, es
+Hello Sally, así que imprime Hello Sally. Este es un mejor ejemplo
+en el que usamos ambos argumentos y valor return. De nuevo, esto solo lo recuerda. Vamos a decir greet y "en",
+"en" es "lang". Greet se ejecuta [RUIDO] y
+ejecuta esto. Aquí ahora devolvimos Hello,
+y Hello se convierte en esto. Hello es el valor residual de
+evaluación de la función, y así se llega a Hello Glenn. Ahora, hacemos "greet" "es". Así que llamaremos a este código
+y "es" va a aparecer como "lang". En este caso,
+ejecutará esto y devolverá "Hola". "Hola" se convertirá en esto,
+lo reemplaza y dice "Hola Sally". Ahora lo haremos de nuevo,
+"greet fr", "greet" va aquí, pasamos "fr" como el lenguaje,
+falso, verdadero y return. Return no sale aquí,
+finalizó. Eso es todo, en este punto terminó, y
+también especificó el valor residual de este código, y
+eso es Bonjour Michael. Por cierto, Glenn, Sally y
+Michael son personas reales. Siempre uso nombres de
+personas reales que conozco. Bien. Ahora, lo que haremos es
+analizar de nuevo esa función max, pero vamos a
+comprender cómo funciona return. Esto se trata más de return. Si observamos a max,
+vamos a evaluar el lado derecho de esto.
+Tenemos algo para enviar a big. Max('Hello world') dice: tomar este
+parámetro y enviarlo a max. Esta es la función max, ¿sí? Así que Hello world viene
+a max como un parámetro. No sabemos qué hay dentro de max,
+no nos importa. Pero va a hacer algo, leer algunas cosas, consultar para
+ver si es una cadena o algo. Y luego hará un bucle
+a través de muchas cosas y descifrará qué es lo más grande. Y averiguará esto, leerá,
+elegirá la w como la más grande. Y luego ejecutará una instrucción
+return porque tiene que pasarnos la w a nosotros. ¿Sí? Entonces, para comunicar
+la función al mundo real, aquí está nuestro mundo real,
+dice return 'w'. Puede ser una variable,
+pero se entendió la idea. Debe ejecutar una instrucción return
+y ahí termina la ejecución. No continúa, ni siquiera ejecuta una
+sola instrucción luego de return. Pero luego nos envía para reemplazar en esa instrucción original la w
+y se vuelve el valor residual. Y la w es lo que va a big. Luego de un tiempo, no tendrá que mirar
+toda esta sintaxis en tanto detalle. Solo quiero que pueda reconocer
+cada carácter y su significado y analizarlo en cámara lenta
+porque después de un tiempo, solo lo escribirá
+sin ni siquiera pensarlo. Pero debe ser capaz de analizarlo
+lentamente, si es necesario. Bien, puede tener más de un
+parámetro como podría esperar. Esto dice que quiero dos parámetros. De nuevo, el nombre de estos
+elementos aquí dentro no importa. Ese es el primer parámetro,
+ese es el segundo parámetro. En una llamada, pasamos 3 y 5. Es fácil, el número y orden de los parámetros son iguales tanto en la
+invocación como en la definición de la función. Solo agregamos estos dos números,
+los convertimos en una variable local y los devolvemos. "8" se convierte en lo que regresa
+y se traba en x. Más de un parámetro,
+más de un argumento, no hay problema. Los nombres de los parámetros dentro
+de las funciones, es simple. Algunas funciones no devuelven valores. Las llamamos funciones no fructíferas y, si devuelven valores,
+funciones fructíferas. En resumen, fue una introducción
+muy rápida a las funciones. Como dije, no espero que cree
+un montón de funciones, pero quiero que las entienda. Cuando llegue el momento, y piense dentro suyo que
+es momento de crear una función, sabrá cómo crearlas
+y cómo usarlas.
